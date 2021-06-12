@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>3D Viewer</title>
+<!--  定义为居中显示 -->
+<style type="text/css">
+p{
+text-align: center;
+}
+</style>
 </head>
-<body>
+<body background="004.jfif">
     
 <!--  下面是展示文字内容  -->
-<h1>Hey!! Welcome to DaTimon's personal website!  </h1> 
-<img src="G7.gif" alt="Pulpit rock" width="700" height="350">
+<h1><p><font color="red">Hey!! Welcome to DaTimon's personal website!</font></p></h1>
+<p><font color="white">访问本地挂载网址:</font><a href="localhost:801/mywebpages/index.html" target="_blank"> localhost:801/mywebpages/index.html</a></p>
+<!--  画分割线命令  -->
+<hr >
+ <p><img src="G7.gif" alt="Pulpit rock" width="700" height="350"></p>
 <!-- 下面是展示自己的视频  -->
 <!--  <video width="960" height="540" controls>
     <source src="002.mp4" type="video/mp4">
     </video> -->
-<h3> 是否需要网上援助？——> <a href="https://www.baidu.com" target="_self"> Google一下 </a> <—— DaTimon的学习园地 </h3>
+<h3> <p>是否需要网上援助?——> <a href="https://www.baidu.com" target="_self"> <button>Google一下 </button></a> <—— DaTimon的学习园地 </p></h3>
+<hr >
+<h3><p>三维模型可视化——Viewer for 3D Models</p></h3> 
+<p><a href="3DModelViewer/website/index.html" target="_blank"><button>3D Model Viewer (支持格式obj、3ds、ply、3dm、stl等)</button></a></p> 
+<hr >
+<h3><p>三维点云模型可视化——Viewer for 3D Pointclouds</p></h3> 
+<h4><p>①Ripple激光点云模型展示(Potree): <a href="ripple/index.html" target="_blank"><button> click here to view </button></a></p></h4>
 
-<h1>三维模型可视化——Viewer for 3D Models</h1> 
-<h1> </h1>
-<a href="3DModelViewer/website/index.html" target="_blank"><button><h2>3D Model Viewer (支持格式obj、3ds、ply、3dm、stl等)</h2></button></a> 
-<h1> </h1>
-<h1>三维点云模型可视化——Viewer for 3D Pointclouds</h1> 
-<h3>①Ripple激光点云模型展示(Potree): <a href="ripple/index.html" target="_blank"><button> click here to view </button></a> </h3>
 
 </body>
 </html>
